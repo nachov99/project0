@@ -1,5 +1,42 @@
 $color: green;
+$size: 15px;
 
 h1{
   color: $color;
+}
+
+nav{
+  li{
+    font-size: $size;
+  }
+}
+
+table{
+  a{
+    color: $color;
+  }
+}
+
+.tableheadersass {
+  font-size: 15px;
+}
+
+.countrysass{
+  @extend .tableheadersass;
+  color: red;
+}
+
+.tcsass{
+  @extend .tableheadersass;
+  color: blue;
+}
+
+.tdsass{
+  @extend .tableheadersass;
+  color: yellow;
+}
+
+.trsass{
+  @extend .tableheadersass;
+  color: purple;
 }
